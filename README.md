@@ -2,11 +2,14 @@
 
 MFC スプリッタ CSplitterBar
 
+![Sample CSplitterBar](images/Sample_CSplitterBar.png)
+
 
 ## 概要
 
 他のコードや外部ライブラリに依存せず、単体で動作する MFC ダイアログ/ウィンドウ向けスプリッタバー実装クラス (`CSplitterBar`) です。  
 Visual C++ 6.0 (VC6) などの古い開発環境から最新環境まで幅広く動作します。
+
 
 ---
 
@@ -17,12 +20,14 @@ Visual C++ 6.0 (VC6) などの古い開発環境から最新環境まで幅広�
 - **伸縮モード対応**: 固定長（左/上固定、右/下固定）や比率維持など、ウィンドウリサイズ時の柔軟なレイアウトに対応します。
 - **DPI 調整対応**: モニターの DPI（`LOGPIXELSX` / `LOGPIXELSY`）に合わせたバーサイズ・最小幅の自動スケーリングを行います。
 
+
 ---
 
 ## 構成ファイル
 
 - `SplitBar.inc` : `CSplitterBar` クラスの実装ヘッダ
 - `SplitBDg.h` / `SplitBDg.cpp` : ダイアログでの使用例サンプル
+
 
 ---
 
