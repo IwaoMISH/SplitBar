@@ -1,0 +1,2 @@
+# SplitBar
+MFC スプリッタ CSplitterBar
